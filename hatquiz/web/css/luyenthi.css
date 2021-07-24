@@ -1,0 +1,196 @@
+.instruction-box hr,
+.exam-top-list hr{
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    border: 0;
+    border-top: 1px solid #ffdca1;
+}
+.menu_monthi {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding: 0;
+}
+.btn.link_monthi{
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+.btn.link_monthi.active,
+.btn:hover {
+    background-color: #2d6cde;
+    color: #fff;
+}
+/*Chi tiết đề thi*/
+.detail{
+    width: calc(100% - 314px) !important;
+    background: #fff;
+    border: solid 1px #d9d9d9;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 35px 32px 35px 32px;
+}
+.detail-question{
+    min-height: 69px;
+    border-radius: 8px;
+    background-color: #ececec;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.detail-question span{
+    color: #3a3a3a;
+}
+/*Bảng xếp hạng*/
+.charts{
+    border: 1px solid #d9d9d9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -khtml-border-radius: 5px;
+    margin-bottom: 25px;
+}
+.card-header{
+    height: auto;
+    min-height: 43px;
+    background-color: #2d6cde;
+    padding: 4px 0 6px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.card-header h2{
+    text-align: center;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #fff;
+}
+.exam-top-list{
+    padding: 16px;
+}
+.top-header,.row-content{
+    display: flex;
+    margin-bottom: 20px;
+}
+.top-header .col{
+    flex: 1;
+    color: #0c0c0c;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+.row-content .col{
+    flex: 1;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+.col.name{
+    text-align: left;
+    flex-basis: 35%;
+    color: #0c0c0c;
+    font-size: 14px;
+    font-weight: 600;
+}
+.col.score,
+.col.time{
+    font-weight: 500;
+}
+.exam-top-list .row-content .col.top1 span{
+    background: url(../images/gold.png) no-repeat left center;
+    padding-left: 22px;
+}
+.exam-top-list .row-content .col.top2 span{
+    background: url(../images/silver.png) no-repeat left center;
+    padding-left: 22px;
+}
+.exam-top-list .row-content .col.top3 span{
+    background: url(../images/bronze.png) no-repeat left center;
+    padding-left: 22px;
+}
+
+/*Button bắt đầu làm bài*/
+.btn-group-do-exam{
+    justify-content: center;
+    display: flex;
+}
+.btn-do-exam{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffb83c;
+    color: #fff;
+    width: 165px;
+    height: 46px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: 600;
+    float: left;
+}
+
+/*Hướng dẫn làm bài thi*/
+.regulation{
+    margin-top: 20px;   
+    margin-bottom: 20px;
+    min-height: 69px;
+    border-radius: 8px;
+    background-color: #ffebc9;
+    flex-wrap: wrap;
+}
+.regulation h3{
+    text-align: center;
+    padding-top: 30px;
+    color: #ff913c;
+    font-weight: 600;    
+    font-size: 28px;
+}
+.regulation .note{
+    color: #f45f33;
+    font-size: 18px !important;
+    font-weight: 600;
+    padding-left: 50px;
+}
+.instruction-box,.note-content{
+    padding: 0 50px 30px 50px;
+    font-size: 16px;
+}
+.note-content p{
+    margin: 0;
+}
+.formatquestion{
+    border-radius: 5px;
+    background-color: #fafafa;
+    margin: 20px 0;
+    padding: 20px;
+}
+/*.formatquestion b p{
+    display: flex;
+    align-items: center;
+}*/
+.formatquestion b p img{
+    float: unset !important;
+}
+.formatquestion input[type="radio"]{
+    margin: 0 4px 0 0;
+}
+.formatquestion label{
+    margin: 0;
+    font-weight: unset;
+}
+.notdoquiz{
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 20px 0 0 0;
+    padding: 10px;
+    color: red;
+    font-weight: 600;
+    text-align: end;
+}
+.notdoquiz img{
+    width: 24px;
+    transform: translateY(-2px);
+}
+.notdoquiz span{
+    font-size: 16px;
+}

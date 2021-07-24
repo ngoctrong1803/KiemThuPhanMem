@@ -1,0 +1,46 @@
+@media (max-width: 739px) {
+    .col-xs-2,
+    .main{
+        width: unset !important;
+    }
+    .menu_monthi{
+        overflow-x: auto;
+    }
+    .link_menu{
+        text-transform: uppercase;
+    }
+    .course{
+        height: unset;
+    }
+    .breadcrumb{
+        padding: 8px 5%;
+    }
+    .detail{
+        width: unset !important;
+        margin: 0 10px;
+        padding: 20px 15px 30px 15px;
+    }
+    .instruction-box,
+    .note-content{
+        padding: 0px 20px 20px 20px;
+    }
+    .regulation .note{
+        padding-left: 20px;
+    }
+    .regulation h3{
+        font-size: 22px;
+    }
+    .btn-do-exam{
+        width: 48%;
+    }
+    .charts{
+        margin: 20px 10px 0 10px;
+    }
+    .infor_nav{
+        width: 100% !important;
+    }
+    .infor_menu{
+        display: block;
+        padding-bottom: 10px;
+    }
+}
